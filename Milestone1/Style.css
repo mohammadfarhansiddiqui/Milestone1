@@ -1,0 +1,90 @@
+/* General Styleing */
+body {
+font-family: 'Courier New', Courier, monospace;
+background-color:white;
+margin: 0;
+padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0, 0.1);
+    }
+
+    /* Left Section Styling */
+    .left-section {
+     background-color:darkslategray;
+     color:black;
+     padding: 20px;
+     width: 35%;
+     text-align: center;
+     border-right: 3px solid #070220;
+            border-top: 3px solid #070220;
+            border-bottom: 3px solid #070220;
+            border-left: 3px solid #070220;
+              }
+
+    .profile-picture {
+     width: 130px;
+     height: 150px;
+     margin-top: 10%;
+     border-radius: 50%;
+     border: 5px solid #e63946;
+     margin-bottom: 20px;
+    }
+    
+    h1 {
+        font-size: 28px;
+        margin: 10px 0;
+        margin-bottom: 30px;
+        text-align: center;
+        }
+
+    h3 {
+        font-size: 18px;
+        padding:2%;
+        margin: 20px 0 10px;
+        color: black ;
+        border-radius: 10px;
+        box-shadow: 0 0 15px #030010ee;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        }
+        
+        ul {
+            list-style-type: fill round;
+            padding: 10;
+            margin: 10px 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+
+         /* Right Section Styling */
+         .right-section {
+            padding: 20px;
+            width: 65%;
+            border-right: 3px solid #070220;
+            border-top: 3px solid #070220;
+            border-bottom: 3px solid #070220;
+            background-color: rgb(220, 231, 220);
+        }
+
+        button {
+            font-family: Arial, sans-serif;
+            border-radius: 10px;
+            box-shadow: 0 0 15px black;
+            cursor: wait;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        button:hover {
+            background-color: #8d8a09;
+        }
+    }
+    
